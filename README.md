@@ -103,25 +103,6 @@ Enter raw pollutant concentrations to calculate the AQI rating per Indian standa
 
 ---
 
-## Repository Structure
-├── aqi_forecast_gui.py             # GUI 1: forecasting + power plant simulator
-├── aqi_calculator_gui.py           # GUI 2: AQI calculator from pollutant inputs
-├── model_training/
-│   └── sarimax_training.ipynb      # Data preprocessing, model training, evaluation
-├── models/
-│   ├── sarima_AQI.pkl
-│   ├── sarima_CO.pkl
-│   ├── sarima_NO2.pkl
-│   ├── sarima_PM10.pkl
-│   ├── sarima_PM2.5.pkl
-│   ├── sarima_O3.pkl
-│   └── sarima_SO2.pkl
-├── requirements.txt
-└── README.md
-
-
----
-
 ## Data
 
 Source: Central Pollution Control Board India (cpcb.nic.in) — India AQI dataset 2015–2020, 628,458 instances across major Indian cities.
